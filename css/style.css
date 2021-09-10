@@ -258,7 +258,7 @@ p {
 
 
 a {
-  color:#B70101;
+  color:#dda01f;
   -webkit-transition: color .3s ease-out;
        -o-transition: color .3s ease-out;
           transition: color .3s ease-out;
@@ -4377,6 +4377,16 @@ img.mfp-img{
 .bottom-widget-text .text-content p{
   margin-top: 20px;
 }
+.text-content a{
+
+  color: #bcbcbc;
+}
+
+.text-content a:hover{
+  color:#dda01f;
+  text-decoration: none;
+}
+
 
 .social-round a,
 .social-round-2 a{
@@ -4424,6 +4434,8 @@ border-color: #dda01f;
   text-decoration: none;
 }
 
+
+}
 .navbar-bottom{
   margin-top: 25px;
   padding-top: 25px;
