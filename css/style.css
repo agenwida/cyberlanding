@@ -121,7 +121,7 @@ body{
 
 ::-webkit-scrollbar-thumb {
   cursor: pointer;
-  background: #B70101;
+  background: #f47e42;
 }
 
 ::selection{
@@ -425,10 +425,10 @@ label.error{
   background: none;
   border-radius: 0;
   padding:20px 50px 0;
-  height: 50px;
+  height: 30px;
   font-size: 14px;
   line-height: 1;
-  color:#313131;
+  color: white;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-decoration: none;
@@ -438,7 +438,10 @@ label.error{
        -o-transition: all .3s ease-out;
           transition: all .3s ease-out;
 }
+#adm:hover{
+  color: black;
 
+}
 .btn .text{
   visibility: hidden;
 }
@@ -1210,7 +1213,7 @@ a.fa:focus{
   top:0;
   width: 70px;
   height: 2px;
-  background-color: #B70101;
+  background-color: #f47e42;
 }
 
 .delimiter:before{
@@ -1233,7 +1236,7 @@ a.fa:focus{
   margin-top: -5px;
   width: 10px;
   height: 10px;
-  border:1px solid #B70101;
+  border:1px solid #f47e42;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
@@ -1266,7 +1269,7 @@ a.fa:focus{
   margin:25px 0 0 0;
   width: 70px;
   height: 2px;
-  background-color: #B70101;
+  background-color: #f47e42;
 }
 
 .delimiter-2{
@@ -4237,7 +4240,7 @@ img.mfp-img{
   height: 55px;
   line-height: 55px;
   border-radius: 3px;
-  background-color: #B70101;
+  background-color: #f47e42;
   text-shadow:0 1px 4px rgba(0,0,0,0.6);
   text-align: center;
 }
